@@ -19,9 +19,9 @@ void setup()
   // Start the serial
   Serial.begin(9600);
   while(!Serial);
-  Serial.println("Nrf24L01 Receiver Starting...");
+  Serial.println("NRF24L01P Receiver Starting...");
   
-  // Start the radio, again set ti min & slow as I'm guessing while testing theire really close to each other
+  // Start the radio, again set to min & slow as I'm guessing while testing theire really close to each other
   radio.begin();
   radio.setPALevel(RF24_PA_MIN);   // RF24_PA_MIN ,RF24_PA_LOW, RF24_PA_HIGH, RF24_PA_MAX
   radio.setDataRate( RF24_250KBPS ); // RF24_250KBPS, RF24_1MBPS, RF24_2MBPS
