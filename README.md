@@ -2,6 +2,8 @@
 
 If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , there is a lot of **old example code out there that does not work anymore** (as of 2016) and this drove me nuts.
 
+The standard RF24 "Getting Started" scripts that comes with the RF24 library are hardly newbie proof, these are much, much easier to use & get started quickly with (ie what I needed originally!).
+
 **This code will help you get you up & running *fast* !!!**
 
 ![NRF24L01P+PA+LNA board example](http://www.elecfreaks.com/wiki/images/1/1d/N24l01_figure20.jpg)
@@ -98,17 +100,15 @@ Don't be tempted to skip this step, confirm the NRF24L01P boards are working fir
 
 **You're ready to rock now!**
 
-1. Download the [Transmitter.ino](/master/Transmitter.ino)
-
-Attached are two scripts, one is the sender and one is the receiver. Load the receiver to one of your arduinos and transmitter to the other.
-
-**Note:** The baud rate is 9600, so make sure this is set in your COM window so you see the messages.
+1. Download the [Transmitter.ino](https://github.com/moggiex/NRF24L01P-PA-LNA-Testing-Scripts/blob/master/Transmitter.ino)
+2. Upload this to the first Arduino
+3. Download the [Receiver.ino](https://github.com/moggiex/NRF24L01P-PA-LNA-Testing-Scripts/blob/master/Receiver.ino)
+4. Upload this to the second Arduino
+5. Set the baud rate to 9600 on the COM windows
+6. One of them is transmitting the message  "Hello world! " and the current milli() time.
+7. And the other is receiving that message
 
 These scripts are a simplfied and well document versions of what I've been using to test with. 
-
-The standard RF24 "Getting Started" scripts that comes with the RF24 library is hardly newbie proof, these are much, much easier to use & get started quickly with (ie what I needed originally!).
-
-Power on both devices, check the COM windows and you're away.
 
 # NRF24L01P not working?
 
