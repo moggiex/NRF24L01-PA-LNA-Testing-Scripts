@@ -1,8 +1,8 @@
 # NRF24L01P+PA+LNA Testing Scripts
 
-If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , there is a lot of old example code out there that dose not work anymore (as of 2016) and this drove me nuts.
+If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , **there is a lot of old example code out there that does not work anymore (as of 2016)** and this drove me nuts.
 
-These 3 files will help you get you up & running.
+These 3 files attached & process below will help you get you up & running *fast*!
 
 ![NRF24L01P+PA+LNA board example](http://www.elecfreaks.com/wiki/images/1/1d/N24l01_figure20.jpg)
 
