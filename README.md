@@ -98,6 +98,8 @@ Don't be tempted to skip this step, confirm the NRF24L01P boards are working fir
 
 **You're ready to rock now!**
 
+1. Download the [Transmitter.ino](../blob/master/Transmitter.ino)
+
 Attached are two scripts, one is the sender and one is the receiver. Load the receiver to one of your arduinos and transmitter to the other.
 
 **Note:** The baud rate is 9600, so make sure this is set in your COM window so you see the messages.
