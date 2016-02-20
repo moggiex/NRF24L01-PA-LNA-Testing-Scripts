@@ -1,8 +1,8 @@
 # NRF24L01P+PA+LNA Testing Scripts
 
-If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , **there is a lot of old example code out there that does not work anymore (as of 2016)** and this drove me nuts.
+If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , there is a lot of **old example code out there that does not work anymore** (as of 2016) and this drove me nuts.
 
-These 3 files attached & process below will help you get you up & running *fast* !!!
+**This process below will help you get you up & running *fast* !!!**
 
 ![NRF24L01P+PA+LNA board example](http://www.elecfreaks.com/wiki/images/1/1d/N24l01_figure20.jpg)
 
@@ -15,7 +15,8 @@ These 3 files attached & process below will help you get you up & running *fast*
 5. And I'd **strongly** suggest using a dedicated 3.3V supply as Arduino's don't have anough current capacity to power these devices
 
 **Note: #5 - A Separate 3.3V Power Supply**
-LM1117T chips are what I'm using to supply 3.3V to the NRF24L01P boards. They're cheap & simple to wire up with just two capacitors. See here for the diagram http://circuits.datasheetdir.com/40/LM1117-circuits.jpg just make sure you put the GND wire on both the NRF24L01P board  **AND ** connect the GND from the 3.3 supply to the Arduino GND too.
+
+LM1117T chips are what I'm using to supply 3.3V to the NRF24L01P boards. They're cheap & simple to wire up with just two capacitors. See here for the diagram http://circuits.datasheetdir.com/40/LM1117-circuits.jpg just make sure you put the GND wire on both the NRF24L01P board  **AND** connect the GND from the 3.3 supply to the Arduino GND too.
 
 # Wiring the Arduino's
 
