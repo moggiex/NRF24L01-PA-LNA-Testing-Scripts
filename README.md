@@ -1,4 +1,4 @@
-# NRF24L01+PA+LNA  Testing Scripts
+# Arduino NRF24L01+PA+LNA Testing Scripts
 
 If you've purchased the a pair (or more) of the NRF24L01+PA+LNA transceivers , there is a lot of **old example code out there that does not work anymore** (as of 2016) and this drove me nuts.
 
