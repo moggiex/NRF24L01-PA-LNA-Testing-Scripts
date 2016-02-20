@@ -14,7 +14,7 @@ These 3 files attached & process below will help you get you up & running *fast*
 4. The Arduino IDE - https://www.arduino.cc/en/Main/Software
 5. And I'd **strongly** suggest using a dedicated 3.3V supply as Arduino's don't have anough current capacity to power these devices
 
-**Note: #5 - A Separate 3.3V Power Supply **
+**Note: #5 - A Separate 3.3V Power Supply**
 LM1117T chips are what I'm using to supply 3.3V to the NRF24L01P boards. They're cheap & simple to wire up with just two capacitors. See here for the diagram http://circuits.datasheetdir.com/40/LM1117-circuits.jpg just make sure you put the GND wire on both the NRF24L01P board  **AND ** connect the GND from the 3.3 supply to the Arduino GND too.
 
 # Wiring the Arduino's
