@@ -98,7 +98,7 @@ Don't be tempted to skip this step, confirm the NRF24L01P boards are working fir
 
 **You're ready to rock now!**
 
-1. Download the [Transmitter.ino](blob/master/Transmitter.ino)
+1. Download the [Transmitter.ino](/master/Transmitter.ino)
 
 Attached are two scripts, one is the sender and one is the receiver. Load the receiver to one of your arduinos and transmitter to the other.
 
