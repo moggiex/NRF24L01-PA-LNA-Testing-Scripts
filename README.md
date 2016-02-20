@@ -2,7 +2,7 @@
 
 If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceivers , there is a lot of **old example code out there that does not work anymore** (as of 2016) and this drove me nuts.
 
-**This process below will help you get you up & running *fast* !!!**
+**This code will help you get you up & running *fast* !!!**
 
 ![NRF24L01P+PA+LNA board example](http://www.elecfreaks.com/wiki/images/1/1d/N24l01_figure20.jpg)
 
