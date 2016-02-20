@@ -2,6 +2,8 @@
 
 If you've purchased the a pair (or more) of the NRF24L01P+PA+LNA transceiver , there is a lot of old examples out there that don't work anymore (as of 2016) and this drove me nuts.
 
+![NRF24L01P+PA+LNA board example](http://www.elecfreaks.com/wiki/images/1/1d/N24l01_figure20.jpg)
+
 # You will need:
 
 1. Two Arduino's that use 3.3V (I'm using Pro Mini's)
@@ -17,20 +19,20 @@ LM1117T chips are what I'm using, they're cheap & simple to wire up with two cap
 
 See the image below:
 
-![alt tag](https://arduino-info.wikispaces.com/file/view/24L01Pinout-800.jpg/243330999/24L01Pinout-800.jpg)
+![NRF24L01P+PA+LNA pin layout](https://arduino-info.wikispaces.com/file/view/24L01Pinout-800.jpg/243330999/24L01Pinout-800.jpg)
 
 This is the top view of the pins, so make sure you get them the right way around :)
 
 Connect your pins as detailed below, noting this is for Arduino Pro Mini's. If you're using a different board quickly google the board name and "pin out" to make sure you you get the right pins for CE & CSN.
 
-Pin 1 - Ground to Ground
-Pin 2 - VCC to your 3.3V supply
-Pin 3 - CE or somtimes called SS to pin 9
-Pin 4 - CSN to pin 10
-Pin 5 - SCK to pin 13
-Pin 6 - MOSI to pin 11
-Pin 7 - MSIO to pin 10
-Pin 8 - Unused (it's an interupt)
+1. Pin 1 - Ground to Ground
+2. Pin 2 - VCC to your 3.3V supply
+3. Pin 3 - CE or somtimes called SS to pin 9
+4. Pin 4 - CSN to pin 10
+5. Pin 5 - SCK to pin 13
+6. Pin 6 - MOSI to pin 11
+7. Pin 7 - MSIO to pin 10
+8. Pin 8 - Unused (it's an interupt)
 
 # NRF24L01P Test Script Time!
 
