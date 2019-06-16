@@ -37,7 +37,7 @@ Pin 3 - CE (somtimes called SS) to pin 9
 Pin 4 - CSN to pin 10
 Pin 5 - SCK to pin 13
 Pin 6 - MOSI to pin 11
-Pin 7 - MSIO to pin 12
+Pin 7 - MISO to pin 12
 Pin 8 - Unused (it's an interupt)
 ```
 
